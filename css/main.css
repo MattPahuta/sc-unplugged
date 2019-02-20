@@ -237,6 +237,9 @@ footer .copyright {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/hero-background.jpg') center no-repeat #333;
+    background-size: cover;
+    color: #fff;
 }
 
 /* Aside section styles */
@@ -247,6 +250,7 @@ aside {
     align-items: center;
     flex-flow: row wrap;
 }
+
 
 aside .form {
     margin-top: 30px;
@@ -280,6 +284,9 @@ input[type=button] {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/features-background.jpg') center no-repeat #333;
+    background-size: cover;
+    color: #fff;
 }
 
 .features h2 {
