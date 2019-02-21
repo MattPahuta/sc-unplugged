@@ -111,12 +111,16 @@ body {
 ul,
 ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     color: #e2e3ed;
     text-decoration: none;
 }
+
+
 
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -211,6 +215,10 @@ header nav ul {
 
 header nav ul li {
     font-size: 1.125em;
+}
+
+header a:hover {
+    color: #527158;
 }
 
 footer {
@@ -308,6 +316,11 @@ input[type=button] {
     border: none;
     text-align: center;
     text-transform: uppercase;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 
